@@ -5,13 +5,13 @@
 ./
 ├── data              # 只存放数据说明，所有数据均保存在./data1
 ├── docs              # 项目文档
-├── models            # 五个模型各自独立，保存从github上clone下的原始目录
+├── experiments       # 五个模型各自独立，保存模型训练权重、训练日志、配置参数、loss曲线等
 │   ├── DRDD
 │   ├── EFSat2Rad
 │   ├── Omni-Weather
 │   ├── SEVIR
 │   └── SRDiff
-├── experiments       # 五个模型各自独立，保存模型训练权重、训练日志、配置参数、loss曲线等
+├── models            # 五个模型各自独立，保存从github上clone下的原始目录
 │   ├── DRDD
 │   ├── EFSat2Rad
 │   ├── Omni-Weather
@@ -23,8 +23,7 @@
 │   ├── Omni-Weather
 │   ├── SEVIR
 │   └── SRDiff
-└── shared            # 所有模型共用的代码项目，用于后期对比模型表现时加载相同的metrics、losses、trainer等
-│
+├── shared            # 所有模型共用的代码项目，用于后期对比模型表现时加载相同的metrics、losses、trainer等
 ├── .gitignore        # 纯文本配置文件，用于上传时忽略某些文件
 └── README.md         # 项目说明文档 (本文件)
 ```
