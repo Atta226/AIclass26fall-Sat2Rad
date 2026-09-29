@@ -15,15 +15,14 @@ env/
 miniconda3/
 
 # 科学数据
-# data/
-# *.npy
-# *.npz
-# *.raw
-# *.nc
-# *.h5
-# *.hdf5
-# *.tif
-# *.tiff
+*.npy
+*.npz
+*.raw
+*.nc
+*.h5
+*.hdf5
+*.tif
+*.tiff
 
 # 模型权重
 *.pth
@@ -31,10 +30,10 @@ miniconda3/
 *.ckpt
 
 # 生成输出
-# outputs/
-# results/
-# logs/
-# checkpoints/
+outputs/
+results/
+logs/
+checkpoints/
 
 # IDE / 编辑器
 .vscode/
