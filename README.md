@@ -1,30 +1,16 @@
-# AIclass26fall-Satellite-based-retrieval-of-radar-precipitation 
+# AIclass26fall-Sat2Rad
 
 ## 项目目录说明
 ```text
 ./
-├── README.md         # 项目说明文档 (本文件)
 ├── data              # 只存放数据说明，所有数据均保存在./data1
 ├── docs              # 项目文档
-├── models            # 五个模型各自独立，保存从github上clone下的原始目录
-│   ├── DRDD
-│   ├── EFSat2Rad
-│   ├── Omni-Weather
-│   ├── SEVIR
-│   └── SRDiff
 ├── experiments       # 五个模型各自独立，保存模型训练权重、训练日志、配置参数、loss曲线等
-│   ├── DRDD
-│   ├── EFSat2Rad
-│   ├── Omni-Weather
-│   ├── SEVIR
-│   └── SRDiff
+├── models            # 五个模型各自独立，保存从github上clone下的原始目录
 ├── outputs           # 五个模型各自独立，保存模型测试指标、可视化预测图像等
-│   ├── DRDD
-│   ├── EFSat2Rad
-│   ├── Omni-Weather
-│   ├── SEVIR
-│   └── SRDiff
-└── shared            # 所有模型共用的代码项目，用于后期对比模型表现时加载相同的metrics、losses、trainer等
+├── shared            # 所有模型共用的代码项目，用于后期对比模型表现时加载相同的metrics、losses、trainer等
+├── .gitignore        # 纯文本配置文件，用于上传时忽略某些文件
+└── README.md         # 项目说明文档 (本文件)
 ```
 
 ## 分支管理事项
@@ -45,11 +31,12 @@ git pull origin main
 ```
 
 **第二步：切换到自己的个人分支**
-- 如果个人分支已存在：
+
+如果个人分支已存在：
 ```bash
 git checkout 分支名
 ```
-- 如果个人分支尚未创建，从 main 新建并切换：
+如果个人分支尚未创建，从 main 新建并切换：
 ```bash
 git checkout -b 分支名
 ```
