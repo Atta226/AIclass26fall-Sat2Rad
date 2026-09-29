@@ -45,11 +45,11 @@ git pull origin main
 ```
 
 **第二步：切换到自己的个人分支**
-- 如果个人分支已存在：
+如果个人分支已存在：
 ```bash
 git checkout 分支名
 ```
-- 如果个人分支尚未创建，从 main 新建并切换：
+如果个人分支尚未创建，从 main 新建并切换：
 ```bash
 git checkout -b 分支名
 ```
