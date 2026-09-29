@@ -1,4 +1,4 @@
-# AIclass26fall-Satellite-based-retrieval-of-radar-precipitation 
+# AIclass26fall-Sat2Rad
 
 ## 项目目录说明
 ```text
