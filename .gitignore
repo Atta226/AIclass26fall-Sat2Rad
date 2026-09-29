@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 虚拟环境 / Conda
+venv/
+.venv/
+env/
+miniconda3/
+
+# 科学数据
+data/
+*.npy
+*.npz
+*.raw
+*.nc
+*.h5
+*.hdf5
+*.tif
+*.tiff
+
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+
+# 生成输出
+outputs/
+results/
+logs/
+checkpoints/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+
+# 操作系统
+.DS_Store
+Thumbs.db
