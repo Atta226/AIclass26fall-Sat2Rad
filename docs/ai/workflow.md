@@ -1,5 +1,7 @@
 # AI Development Workflow
 
+> **2026-09-17 适用性更正：以下原正文为 EC/METAR 项目历史流程，整体不作为当前项目的执行规范。** 文中的 EC/METAR、Web、TAF 优先级及已有实现均不适用。Satellite-to-Radar 项目采用 [AI 工作入口](../project/ai_prompt.md)、[研究路线](../project/roadmap.md) 与 [实验协议](../research/experiments.md)。保留原文仅为避免丢失历史材料。
+
 ## 1. Purpose
 
 本文件定义 EC-METAR 项目中 **人类研发人员、Claude、Codex 及其他 AI Agent 的标准协作流程**。

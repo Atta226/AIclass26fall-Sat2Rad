@@ -1,5 +1,7 @@
 # Claude Working Guide
 
+> **2026-09-17 适用性更正：以下原正文是 EC/METAR/Web 项目遗留材料，整体不作为本 Satellite-to-Radar 项目的执行规范或现状。** 原文仅为历史保留；本项目不存在文中所称已有 Web/API。请改读 [AI 工作入口](../project/ai_prompt.md)、[任务定义](../project/context.md)、[当前状态](../project/current_state.md)。
+
 ## Role
 
 Claude 在本项目中适合承担：
