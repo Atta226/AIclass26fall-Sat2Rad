@@ -19,3 +19,185 @@ miniconda3/
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# Local data and runtime artifacts
+# Keep small, explicitly versioned manifests and reference assets outside these paths.
+data/raw/
+data/processed/
+data/cache/
+
+outputs/*
+!outputs/README.md
+!outputs/.gitkeep
+
+# Model and prediction artifacts
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.zarr
+*.log
+
+# A small reproduction reference asset may be intentionally whitelisted later.
+!reproductions/**/reference/**/*.npy
+!reproductions/**/reference/**/*.npz
+!reproductions/**/reference/**/*.h5
+!reproductions/**/reference/**/*.hdf5
+
+# Experiment/runtime caches
+wandb/
+runs/
+# =========================
+# 本地数据与缓存
+# =========================
+data/raw/
+data/processed/
+data/cache/
+data/tmp/
+data/temp/
+data/downloads/
+
+# data/ 下的小型元数据和数据划分文件允许提交
+!data/README.md
+!data/manifests/
+!data/manifests/**
+
+# =========================
+# 实验输出
+# =========================
+outputs/*
+!outputs/README.md
+!outputs/.gitkeep
+
+# 常见运行输出目录
+predictions/
+checkpoints/
+results/
+runs/
+logs/
+tmp/
+temp/
+
+# =========================
+# 模型权重
+# =========================
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.weights
+
+# =========================
+# 科研数据文件
+# =========================
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.zarr
+*.nc
+*.grib
+*.grb
+*.grib2
+*.tif
+*.tiff
+
+# =========================
+# 日志与运行文件
+# =========================
+*.log
+*.out
+*.err
+slurm-*.out
+slurm-*.err
+
+# =========================
+# TensorBoard / WandB
+# =========================
+wandb/
+lightning_logs/
+tensorboard/
+events.out.tfevents.*
+
+# =========================
+# 临时下载与缓存文件
+# =========================
+*.download
+*.part
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# 压缩包
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# =========================
+# 大型媒体与生成结果
+# =========================
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# =========================
+# 本地环境与敏感配置
+# =========================
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# =========================
+# Python 缓存与构建
+# =========================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Conda / Virtualenv
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+miniconda3/
+
+# =========================
+# Jupyter / IDE
+# =========================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# 系统文件
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
