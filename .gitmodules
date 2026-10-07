@@ -1,0 +1,3 @@
+[submodule "reproductions/drdd/upstream/DRDD"]
+	path = reproductions/drdd/upstream/DRDD
+	url = https://github.com/HKU-HealthAI/DRDD.git
