@@ -1,5 +1,7 @@
 # Codex Working Guide
 
+> **2026-09-17 适用性更正：以下原正文是 EC/METAR/Web 项目遗留材料，整体不作为本 Satellite-to-Radar 项目的执行规范或现状。** 原文仅为历史保留，其“当前优先级”、已有 React/API、站点与数据链路均不能继承。本项目按 [AI 工作入口](../project/ai_prompt.md)、[任务定义](../project/context.md)、[当前状态](../project/current_state.md) 工作。
+
 ## Role
 
 Codex 在本项目中的主要职责是：
